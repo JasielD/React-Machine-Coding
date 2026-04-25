@@ -1,0 +1,30 @@
+.folder{
+    width: 300px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    background-color:rgb(148, 194, 235)
+}
+.file{
+    width: 300px;
+    padding: 3px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.btn{
+    border-radius: 10%;
+    background-color: black;
+    color: azure;
+    padding: 2px;
+    margin: 2px;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.inputContainer__input{
+    padding:6px;
+}
